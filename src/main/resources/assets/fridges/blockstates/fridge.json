@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "fridges:block/fridge",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "fridges:block/fridge"
+        },
+        "facing=south": {
+            "model": "fridges:block/fridge",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "fridges:block/fridge",
+            "y": 270
+        }
+    }
+}

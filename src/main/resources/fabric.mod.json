@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "fridges",
+    "version": "${version}",
+    "name": "fridges",
+    "description": "",
+    "authors": [],
+    "contact": {
+        "repo": "https://github.com/x1msoc/fridges"
+    },
+    "license": "GPL-3.0",
+    "icon": "assets/fridges/textures/block/fridge_front.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.cosm1x.fridges.Fridges"
+        ],
+        "client": [
+            "me.cosm1x.fridges.client.FridgesClient"
+        ]
+    },
+    "mixins": [
+        "fridges.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
