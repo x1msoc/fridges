@@ -14,9 +14,10 @@ Simple fabric mod that adds fridge into minecraft
 
 ## Usage
 1. Craft a fridge
-
-![](recipe.png)
 2. Place it down
 3. Place items in it
 4. Done!
+
+### Recipe
+![](recipe.png)
 
